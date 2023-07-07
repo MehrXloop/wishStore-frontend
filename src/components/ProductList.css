@@ -1,0 +1,79 @@
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+.card {
+    box-shadow: 0 4px 20px 0 rgba(255, 98, 98, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    padding: 1%;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .addtocart {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  .card img{
+    width: 50%;
+  }
+
+  .btn-enabled {
+    background-color: black;
+    color: rgb(251, 251, 251);
+    border-radius: 6%;
+    border: none;
+    margin: 2% auto;
+    display: block;
+    font-size: 1.2em;
+    padding: 8px;
+}
+
+.btn-disabled {
+  background-color: rgb(116, 106, 106);
+  color: rgb(251, 251, 251);
+  border-radius: 6%;
+  border: none;
+  margin: 2% auto;
+  display: block;
+  font-size: 1.2em;
+  padding: 8px;
+}
+
+  .fieldqty{
+    width: 5%;
+    text-align: center;
+  }
+
+  .button{
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    border-color: black;
+    cursor: pointer;
+}
+
+.cross-button{
+  display: block;
+  margin: 0px 0px 10px 90%;
+}

@@ -1,0 +1,23 @@
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 1%;
+}
+
+.cartcount{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cartcount sup{
+    padding: 2%;
+    color: #ad0404;
+}
+
+.cartcount span{
+    color:#ad0404;
+}
